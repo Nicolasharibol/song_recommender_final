@@ -32,4 +32,4 @@ The application brings together Streamlit and Spotify's API to deliver an engagi
 3) Streamlit generated a local link (http://localhost:8501). By opening it in my browser, I easily accessed and interacted with the app, experiencing its features in real-time.
 
 
-Enjoy! 😎 and Thank you 🫶 .
+Enjoy! 😎 and Thank you.
