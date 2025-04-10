@@ -12,6 +12,7 @@ This Unsupervised Machine Learning project employs standard scaling and K-means 
 # 📐 Preprocessing Steps Applied to "audio features dataset curated":
 
 • Retained 9 features essential for the machine learning project, as other features were deemed unnecessary.
+
 • Applied Standard Scaler in the "audio features curated" dataset, ensuring each contributes equally to the analysis. 
 
 # 💡 Machine Learning Approach:
