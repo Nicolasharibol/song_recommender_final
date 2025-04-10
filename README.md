@@ -1,7 +1,7 @@
 # 💻 Song Recommender System: 
-Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called "audio features curated", both datasets are meticulously processed and "audio features curated" is organized into clusters such as pop, ambient, acoustic chill, energetic upbeats, mellow grooves, and more. These clusters help in delivering recommendations that align with different moods and music styles.
+Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called audio features curated, both datasets are meticulously processed and audio features curated is organized into clusters such as pop, ambient, acoustic chill, energetic upbeats, mellow grooves, and more. These clusters help in delivering recommendations that align with different moods and music styles.
 
-This unsupervised machine learning project employs standard scaling and K-means clustering to categorize songs, with Silhouette Score evaluation ensuring optimal cluster quality. The system is crafted in a Streamlit app and seamlessly connects with Spotify's API, making it easy to discover your next favorite track.
+This Unsupervised Machine Learning project employs standard scaling and K-means clustering to categorize songs, with Silhouette Score evaluation ensuring optimal cluster quality. The system is crafted in a Streamlit app and seamlessly connects with Spotify's API, making it easy to discover your next favorite track.
 
 
 # 📊 Data Sourcing:
