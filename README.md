@@ -23,7 +23,7 @@ This Unsupervised Machine Learning project employs standard scaling and K-means 
 
 # ⚙️ System Integration:
 
-The application brings together Streamlit and Spotify's API to deliver an engaging song recommendation experience. Spotify API's credentials and the client ID, are stored in config.py and secured via .gitignore to prevent exposure. These credentials are essential for running the function and displaying songs through Spotify's embedded player. Visitors to the GitHub repository will need their own Spotify credentials and client ID to operate the app. For assistance in setting up their credentials or running the project, they are welcome to contact me.
+Spotify API's credentials and the client ID, are stored in config.py and secured via .gitignore to prevent exposure. These credentials are essential for running the function and displaying songs through Spotify's embedded player. Visitors to the GitHub repository will need their own Spotify credentials and client ID to operate the app. For assistance in setting up their credentials or running the project, they are welcome to contact me.
 
 1) After organizing the data and setting up functions like get_user_preference() and recommend_song(), I created a mechanism for users to enter their music preferences and receive song suggestions in real-time. This setup includes a Spotify stream for a richer user experience. Next, I jumped into Visual Studio Code to build the Streamlit application. It brings everything together, letting users easily get personalized song recommendations right from the app. I saved the script as song_recommender.py in the project's directory.
 
