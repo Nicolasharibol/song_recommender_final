@@ -1,5 +1,5 @@
 # 💻 Song Recommender System: 
-Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called audio features curated, both datasets are meticulously processed. Audio features curated is organized into clusters (10 clusters) such as pop, ambient, acoustic chill, energetic upbeats, mellow grooves, and more. These clusters help in delivering recommendations that align with different moods and music styles.
+Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called audio features curated, both datasets are meticulously processed. Audio features curated is organized into clusters such as pop, ambient, acoustic chill, energetic upbeats, mellow grooves, and more. These clusters help in delivering recommendations that align with different moods and music styles.
 
 This Unsupervised Machine Learning project employs standard scaling and K-means clustering to categorize songs, with Silhouette Score evaluation ensuring optimal cluster quality. The system is crafted in a Streamlit app and seamlessly connects with Spotify's API, making it easy to discover your next favorite track.
 
@@ -13,13 +13,13 @@ This Unsupervised Machine Learning project employs standard scaling and K-means 
 
 • Retained 9 features essential for the machine learning project, as other features were deemed unnecessary.
 
-• Applied Standard Scaler in the "audio features curated" dataset, ensuring each contributes equally to the analysis. 
+• Applied Standard Scaler in the audio features curated dataset, ensuring each contributes equally to the analysis. 
 
 # 💡 Machine Learning Approach:
 
-• Used K-Means Clustering to group songs into distinct clusters based on audio feature similarities, naming them to reflect varied moods and styles like pop, ambient, and acoustic chill. 
+• Used K-Means Clustering to group songs into distinct clusters based on audio feature similarities, naming them to reflect varied moods and styles.
 
-• The Silhouette Score helped evaluate cluster separation, with higher scores indicating clearer clusters.
+• Used Silhouette Score to help evaluate cluster separation, with higher scores indicating clearer or coherent clusters.  
 
 # ⚙️ System Integration:
 
