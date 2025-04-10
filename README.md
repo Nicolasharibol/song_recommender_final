@@ -19,7 +19,7 @@ This Unsupervised Machine Learning project employs standard scaling and K-means 
 
 • Used K-Means Clustering to group songs into distinct clusters based on audio feature similarities, naming them to reflect varied moods and styles.
 
-• Used Silhouette Score to help evaluate cluster separation, with higher scores indicating clearer or coherent clusters.  
+• Used Silhouette Score to help evaluate cluster separation, with higher scores indicating clearer clusters.  
 
 # ⚙️ System Integration:
 
