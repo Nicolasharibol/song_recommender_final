@@ -1,9 +1,9 @@
-# 💻 Song Recommender System: 
-Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called "audio_features_curated", both datasets are meticulously processed.
+# 💻 Song Recommender System: Unsupervised Machine Lerning Project
+Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called "audio_features_curated".
 
-This project delves into Unsupervised Machine Learning, applying standard scaling and K-means clustering to sort the "audio_features_curated" dataset into clear categories. Cluster quality is verified using the Silhouette Score. Within this dataset, songs are grouped into engaging clusters such as pop, ambient, acoustic chill, energetic upbeats, and mellow grooves. These clusters enable track recommendations that resonate with diverse moods and music styles.
+Within "audio_features_curated", songs are grouped into engaging clusters such as pop, ambient, acoustic chill, energetic upbeats, and mellow grooves. 
 
-Following the creation of a Billboard's Hot 100 DataFrame through web scraping, a streamlined process is established that allows users to select "trending now" and instantly receive a song recommendation from the curated top 100 list.
+Following the creation of a Billboard's Hot 100 DataFrame, a streamlined process is established that allows users to select "trending now" and instantly receive a song recommendation from the curated top 100 list.
 
 Finally, the setup features a function that retrieves song recommendations tailored to user preferences, offering options aligned with selected clusters or the "trending now" list. Crafted within a Streamlit app and seamlessly connected to Spotify's API, the system makes discovering your next favorite track effortless.
 
