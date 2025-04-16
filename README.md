@@ -1,7 +1,7 @@
 # 💻 Song Recommender System: Unsupervised Machine Lerning Project
 Welcome to my Song Recommender System—a tool designed to tailor song suggestions based on a blend of your musical preferences, mood, and style. By integrating data from Billboard's Hot 100 through web scraping and an additional set called "audio_features_curated".
 
-Within "audio_features_curated", songs are grouped into engaging clusters such as pop, ambient, acoustic chill, energetic upbeats, and mellow grooves. 
+Within "audio_features_curated", songs are grouped into engaging clusters such as pop, ambient, acoustic chill, energetic upbeats, mellow grooves, and more.
 
 Following the creation of a Billboard's Hot 100 DataFrame, a streamlined process is established that allows users to select "trending now" and instantly receive a song recommendation from the curated top 100 list.
 
