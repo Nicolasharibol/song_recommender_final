@@ -37,4 +37,8 @@ Spotify API's credentials and the client ID, are stored in config.py and secured
 
 # ![Description of Image](./image0.jpg)
 
+# ![Description of Image](./image1.jpg)
+
 Enjoy! 😎 and Thank you.
+
+
