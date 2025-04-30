@@ -7,13 +7,12 @@ import config
 df = pd.read_csv('/Users/admin/Downloads/project/project_week_11/song_recommender_final /billboard_100.csv') 
 audio_features_cluster = pd.read_csv('/Users/admin/Downloads/project/project_week_11/song_recommender_final /audio_features_cluster.csv')  
 
-# Set up Spotify API credentials
+
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
     client_id=config.client_id,
     client_secret=config.client_secret
 ))
 
-# Example cluster labels mapping
 cluster_labels_mapping = {
     0: "mellow grooves", 1: "acoustic chill", 2: "ambient", 3: "energetic upbeat",
     4: "pop", 5: "party beats", 6: "balanced beats", 7: "soulful sounds",
